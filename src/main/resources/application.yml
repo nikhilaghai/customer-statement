@@ -1,0 +1,65 @@
+spring:
+  application:
+    name: cgi-candidate-cloud-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:nikhilaghai/servercloudconfig.git
+          ignore-local-ssh-settings: true
+          privateKey: |
+            -----BEGIN RSA PRIVATE KEY-----
+            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
+            -----END RSA PRIVATE KEY-----
+server:
+  port: 8888
+          
+          
